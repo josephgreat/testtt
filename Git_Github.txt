@@ -1,0 +1,77 @@
+What is DevOps?
+It's a culture that allows development and operation team to work together.It's the use of tools to envolve and release higher services to customers. 
+It increases trust and faster software releases. It involves two teams:
+-Development Teams:- they test code &
+-Operation teams:- helps in the production environment.
+It entails the collaboration of these two teams for faster software releases
+
+Tools in DevOps
+For the Development side, we have:
+Building:- sbt, gradle, maven
+Coding & Planning:- subversion (SVN), team foundation server (TFS), git
+Testing:- Se, JUnit
+
+for Operation side, we have:
+Realease:- codeship, bamboo, jenkins
+MOnitor:-splunk, datadog, Nagios
+Deploy & Operate:-saltstack, DC/OS kubernetes, docker, ansible, chef
+
+Version Control System (VCS)
+It's a practice of tracking and managing software codes. It takes a snapshot of your code and saves it in a repository. Changes can easily be modified and 
+if any mistake, you can match the previous code with the new one. These changes are saved in a new version.
+
+Centralized Version control system
+It uses a central server to store all the files. If the server crashes, all data of the project will be lost.
+
+Distributed version control system
+Here, a centrall sever is also used but the files are distributed to different programmers on their own local system. Updates can be made by each developer
+which will reflect on the main repository. Git is an example.
+
+What is Git
+A version conrol system for tracking changes in computer files. You can store your codes remotely and aloows other developers access these remote codes.
+
+features
+-Tracks hisotry
+-free open source
+-supports non-linear development
+-creates back-up
+-scalable
+-supports collaboration
+-branching is easier.
+
+Work FLow
+A client pulls code copy from a server which allows him to make changes in code, update it, commit it and review it. THen, you can push the updare
+code to the git server, probably under a new branch.
+
+Branch in Git
+Is used to keep changes until they are ready. Allows your main branch to be stable untle when you're done updating your code. When done, you could merge the branch
+with the main branch.
+
+Commands in git
+-git init: creates a new repository 
+-git push, pull, add origin: sync repositories
+-git branch, merge, rebase: parallel development
+-git add, commit, status: make changes
+
+
+
+Github
+It's a service where projects are stored. Every project has a unique repository.
+
+Features
+-Easy project management
+-Increased safety with packages 
+-Effective team management
+-Improved code writing
+-Increased code safety 
+-Easy code hosting
+
+Competitors
+-Bitbucket
+-Fogbugz
+-surround SCM
+-GitLab
+-Buddy
+
+
+--
